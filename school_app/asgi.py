@@ -1,3 +1,6 @@
+#pylint: disable=no-name-in-module
+#pylint: disable=import-error
+#pylint: disable=invalid-name
 """
 ASGI config for newapp project.
 
