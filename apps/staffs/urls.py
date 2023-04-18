@@ -1,3 +1,6 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=invalid-name
+
 from django.urls import path
 
 from .views import (

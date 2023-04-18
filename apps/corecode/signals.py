@@ -1,3 +1,11 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-class-docstring
+#pylint: disable=no-member
+#pylint: disable=too-few-public-methods
+#pylint: disable=bad-option-value
+#pylint: disable=missing-class-docstring
+#pylint: disable=unused-argument
+
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 

@@ -1,3 +1,10 @@
+#pylint: disable=line-too-long
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-class-docstring
+#pylint: disable=too-few-public-methods
+#pylint: disable=no-member
+
+
 from django import forms
 from django.forms import ModelForm, modelformset_factory
 

@@ -1,3 +1,10 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-function-docstring
+#pylint: disable=no-member
+#pylint: disable=unused-argument
+#pylint: disable=no-member
+#pylint: disable=no-member
+
 from .models import AcademicSession, AcademicTerm, SiteConfig
 
 

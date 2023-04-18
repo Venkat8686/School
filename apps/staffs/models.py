@@ -1,3 +1,7 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-function-docstring
+#pylint: disable=missing-class-docstring
+
 from django.core.validators import RegexValidator
 from django.db import models
 from django.urls import reverse

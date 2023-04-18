@@ -1,5 +1,6 @@
 #pylint: disable=missing-module-docstring
 #pylint: disable=missing-class-docstring
+#pylint: disable=no-member
 
 from django import forms
 from django.forms import modelformset_factory

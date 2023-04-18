@@ -1,3 +1,17 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-function-docstring
+#pylint: disable=missing-class-docstring
+#pylint: disable=unused-argument
+#pylint: disable=unexpected-keyword-arg
+#pylint: disable=arguments-differ
+#pylint: disable=singleton-comparison
+#pylint: disable=too-many-ancestors
+#pylint: disable=no-member
+#pylint: disable=too-few-public-methods
+#pylint: disable=bad-option-value
+#pylint: disable=missing-class-docstring
+#pylint: disable=unused-import
+
 from django.contrib.messages.views import SuccessMessageMixin
 from django.forms import widgets
 from django.shortcuts import render

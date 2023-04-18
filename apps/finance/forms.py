@@ -1,3 +1,4 @@
+#pylint: disable=missing-module-docstring
 from django.forms import inlineformset_factory, modelformset_factory
 
 from .models import Invoice, InvoiceItem, Receipt

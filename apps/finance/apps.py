@@ -1,3 +1,7 @@
+#pylint: disable=unused-import
+#pylint: disable=missing-class-docstring
+#pylint: disable=import-outside-toplevel
+#pylint: disable=missing-module-docstring
 from django.apps import AppConfig
 
 

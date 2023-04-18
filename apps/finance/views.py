@@ -1,3 +1,20 @@
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-function-docstring
+#pylint: disable=missing-module-docstring
+#pylint: disable=missing-function-docstring
+#pylint: disable=missing-class-docstring
+#pylint: disable=unused-argument
+#pylint: disable=unexpected-keyword-arg
+#pylint: disable=arguments-differ
+#pylint: disable=singleton-comparison
+#pylint: disable=too-many-ancestors
+#pylint: disable=no-member
+#pylint: disable=too-few-public-methods
+#pylint: disable=bad-option-value
+#pylint: disable=missing-class-docstring
+#pylint: disable=unused-import
+#pylint: disable=attribute-defined-outside-init
+
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import redirect, render

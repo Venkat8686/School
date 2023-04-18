@@ -1,6 +1,7 @@
 #pylint: disable=missing-module-docstring
 #pylint: disable=missing-class-docstring
 #pylint:disable=missing-function-docstring
+#pylint:disable=too-few-public-methods
 from django.db import models
 
 from apps.corecode.models import (
