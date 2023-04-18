@@ -2,6 +2,7 @@
 #pylint: disable=invalid-name
 #pylint: disable=missing-module-docstring
 #pylint: disable=missing-class-docstring
+#pylint: disable=duplicate-code
 
 from django.db import migrations, models
 

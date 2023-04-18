@@ -11,6 +11,7 @@ phases:
       - echo build stage started
       - pylint $CODEBUILD_SRC_DIR/*.py
       - pylint $CODEBUILD_SRC_DIR/school_app/*.py
+      - pylint $CODEBUILD_SRC_DIR/apps/*.py
       
   post_build:
     commands:
