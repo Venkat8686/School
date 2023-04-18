@@ -9,6 +9,9 @@ phases:
   build:
     commands:
       - echo build stage started
+      - pylint $CODEBUILD_SRC_DIR/*.py
+      - pylint $CODEBUILD_SRC_DIR/school_app/*.py
+      
   post_build:
     commands:
       - echo building  competed on -`date`
